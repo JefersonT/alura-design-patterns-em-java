@@ -7,11 +7,12 @@ import java.math.BigDecimal;
 
 public class TesteDesconto {
     public static void main(String[] args) {
-        Orcamento orcamento = new Orcamento(new BigDecimal("1000"), 2);
-        Orcamento orcamento2 = new Orcamento(new BigDecimal("300"), 7);
-        CalculadoraDeDescontos descontos = new CalculadoraDeDescontos();
+        Orcamento primeiro = new Orcamento(new BigDecimal("1000"), 2);
+        Orcamento segundo = new Orcamento(new BigDecimal("300"), 7);
 
-        System.out.println(descontos.calcular(orcamento));
-        System.out.println(descontos.calcular(orcamento2));
+        CalculadoraDeDescontos calculadora = new CalculadoraDeDescontos();
+
+        System.out.println(calculadora.calcular(primeiro));
+        System.out.println(calculadora.calcular(segundo));
     }
 }
