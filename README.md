@@ -10,6 +10,7 @@ O livro **Padrões de Projeto - Soluções reutilizáveis de software orientado 
 
 Caso não possa (ou não queira) ler o livro, existem sites que resumem cada um dos padrões. Aqui está um que é bastante utilizado, já na página específica sobre o **Strategy**: https://refactoring.guru/design-patterns/strategy.
 
+Nesta aula, aprendemos:
 - Padrões de projeto são soluções genéricas para problemas recorrentes do desenvolvimento de software orientado a objetos;
 - Existem três principais categorias de padrões de projeto:
   - Comportamentais (que serão vistos neste treinamento)
@@ -18,7 +19,17 @@ Caso não possa (ou não queira) ler o livro, existem sites que resumem cada um 
 - Como diminuir a complexidade do nosso código, trocando múltiplas condicionais por classes:
   - Esta técnica é chamada de **Strategy**, que é um dos padrões de projeto
 
-[//]: # (## AULA 02. )
+## AULA 02. Chin of Responsibility
+Assim como qualquer outro conceito em computação, existe mais de uma forma de implementar o padrão de projeto **Chain of Responsibility**.
+
+Para saber mais sobre a parte teórica deste padrão, e analisar diferentes implementações, você pode conferir este link:
+
+https://refactoring.guru/design-patterns/chain-of-responsibility.
+
+Nesta aula, aprendemos:
+- A diferenciar casos onde padrões semelhantes podem ser aplicados;
+- Como criar uma cadeia de possíveis algoritmos como **Chain of Responsibility**;
+- A utilizar o padrão para aplicar um desconto dentro de uma cadeia de possíveis descontos.
 
 [//]: # (## AULA 03. )
 
