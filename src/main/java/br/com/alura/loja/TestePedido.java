@@ -2,12 +2,10 @@ package br.com.alura.loja;
 
 import br.com.alura.loja.acao.EnviarEmailPedido;
 import br.com.alura.loja.acao.SalvarPedidoNoBancoDeDados;
-import br.com.alura.loja.pedido.AcaoAposGerarPedido;
 import br.com.alura.loja.pedido.GeraPedido;
 import br.com.alura.loja.pedido.GeraPedidoHandler;
 
 import java.math.BigDecimal;
-import java.util.ArrayList;
 import java.util.Arrays;
 
 public class TestePedido {

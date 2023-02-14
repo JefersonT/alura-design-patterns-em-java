@@ -1,7 +1,5 @@
 package br.com.alura.loja.pedido;
 
-import br.com.alura.loja.acao.EnviarEmailPedido;
-import br.com.alura.loja.acao.SalvarPedidoNoBancoDeDados;
 import br.com.alura.loja.orcamento.Orcamento;
 import lombok.AllArgsConstructor;
 
