@@ -2,11 +2,13 @@ package br.com.alura.loja.pedido;
 
 import br.com.alura.loja.orcamento.Orcamento;
 import lombok.AllArgsConstructor;
+import lombok.Getter;
 
 import java.math.BigDecimal;
 import java.time.LocalDate;
 
 @AllArgsConstructor
+@Getter
 public class GeraPedido {
     private String cliente;
     private BigDecimal valorPedido;
