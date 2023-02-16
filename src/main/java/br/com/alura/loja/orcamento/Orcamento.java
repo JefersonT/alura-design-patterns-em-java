@@ -1,5 +1,8 @@
 package br.com.alura.loja.orcamento;
 
+import br.com.alura.loja.orcamento.situacao.EmAnalise;
+import br.com.alura.loja.orcamento.situacao.Finalizado;
+import br.com.alura.loja.orcamento.situacao.SituacaoOrcamento;
 import lombok.Getter;
 import lombok.Setter;
 
@@ -17,5 +20,21 @@ public class Orcamento {
         this.valor = valor;
         this.quantidadeDeItems = quantidadeDeItems;
         this.situacao = new EmAnalise();
+    }
+
+    public void aprovar() {
+        this.situacao.aprovar(this);
+    }
+
+    public void reprovar() {
+        this.situacao.reprovar(this);
+    }
+
+    public void finalizar() {
+        this.situacao.finalizar(this);
+    }
+
+    public boolean isFinalizado() {
+        return situacao instanceof Finalizado;
     }
 }
