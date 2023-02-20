@@ -88,10 +88,21 @@ Nesta aula, aprendemos:
 ## AULA 01. Adapters para reutilizar dependências
 Quando precisamos utilizar código legado ou código de componentes externos em nosso sistema, é muito comum não ter a interface (métodos públicos) batendo com o que a gente precisa, então nesses casos nós criamos **adapters**.
 
-Esse padrão é muito simples e muito utilizado no dia a dia do desenvolvimento, então vale a pena a sua leitura com mais calma: https://refactoring.guru/design-patterns/adapter.
+Esse padrão é muito simples e muito utilizado no dia a dia do desenvolvimento, então vale a pena a sua leitura com mais calma: [Adapter](https://refactoring.guru/design-patterns/adapter).
 
 Nesta aula, aprendemos:
 
 - Que padrões estruturais nos ajudam a relacionar diversas classes de forma organizada
 - Que detalhes de infraestrutura devem ser abstraídos através de interfaces
 - Como o padrão **_Adapter_** pode nos ajudar a trocar detalhes de infraestrutura, sem muitas dores de cabeça
+
+## AULA 02. Mais de um imposto com Decorators
+O padrão **_Decorator_** é muito poderoso e bastante comum de ser implementado, mas possui alguns detalhes importantes a serem observados, como o fato do _Decorator_ precisar possuir a mesma interface do objeto que ele está decorando.
+
+Para entender melhor a teoria do padrão e estes detalhes, você pode conferir este link: [Decorator](https://refactoring.guru/design-patterns/decorator).
+
+Nesta aula, aprendemos:
+
+- Que é possível adicionar comportamento a classes em tempo de execução;
+- A aplicar esse conhecimento para combinar impostos;
+- Que comportamentos adicionados em tempo de execução são possíveis, através do padrão **_Decorator_**.

@@ -13,11 +13,9 @@ public class TesteImposto {
 
 		Orcamento orcamento = new Orcamento(new BigDecimal("1000"), 1);
 		CalcularoraDeImpostos calcularora = new CalcularoraDeImpostos();
-		ICMS icms = new ICMS();
-		ISS iss = new ISS();
 
-		System.out.println(calcularora.calcular(orcamento, icms));
-		System.out.println(calcularora.calcular(orcamento, iss));
+
+		System.out.println(calcularora.calcular(orcamento, new ISS(new ICMS(null))));
 	}
 
 }
