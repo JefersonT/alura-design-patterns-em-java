@@ -22,9 +22,7 @@ Nesta aula, aprendemos:
 ## AULA 02. Chin of Responsibility
 Assim como qualquer outro conceito em computação, existe mais de uma forma de implementar o padrão de projeto **Chain of Responsibility**.
 
-Para saber mais sobre a parte teórica deste padrão, e analisar diferentes implementações, você pode conferir este link:
-
-https://refactoring.guru/design-patterns/chain-of-responsibility.
+Para saber mais sobre a parte teórica deste padrão, e analisar diferentes implementações, você pode conferir este link: [Strategy](https://refactoring.guru/design-patterns/chain-of-responsibility).
 
 Nesta aula, aprendemos:
 - A diferenciar casos onde padrões semelhantes podem ser aplicados;
@@ -34,7 +32,7 @@ Nesta aula, aprendemos:
 ## AULA 03. Template Method
 As aplicações do padrão **Template Method** são muitas, mas além de entender a parte prática, é muito importante ler sobre a teoria por trás do padrão.
 
-Para entendê-lo melhor, você pode conferir este link: https://refactoring.guru/design-patterns/template-method.
+Para entendê-lo melhor, você pode conferir este link: [Template Method](https://refactoring.guru/design-patterns/template-method).
 
 Nesta aula, aprendemos:
 
@@ -46,7 +44,7 @@ Nesta aula, aprendemos:
 ## AULA 04. State
 Para que você entenda melhor como aplicar o padrão **State** em outras situações, é interessante conhecer toda sua parte teórica, como motivação, aplicações, etc.
 
-Para isso, você pode conferir este link: https://refactoring.guru/design-patterns/state.
+Para isso, você pode conferir este link: [State](https://refactoring.guru/design-patterns/state).
 
 Nesta aula, aprendemos:
 
@@ -57,7 +55,7 @@ Nesta aula, aprendemos:
 ## AULA 05. Command
 O padrão de projetos **Command** é, provavelmente, um dos que mais gera confusão, principalmente no mundo de desenvolvimento web em geral, já que alguns conceitos mais específicos pro mundo da web surgiram e são diferentes dos existentes em aplicações desktop.
 
-Para você entender melhor sobre o padrão _Command_ "original" (definido no livro da **GoF**), você pode dar uma olhada nesse link: https://refactoring.guru/design-patterns/command.
+Para você entender melhor sobre o padrão _Command_ "original" (definido no livro da **GoF**), você pode dar uma olhada nesse link: [Command](https://refactoring.guru/design-patterns/command).
 
 Também é muito interessante o estudo de alguns padrões de arquitetura de software, como **Domain Driven Design** e **Clean Architecture**, pois você vai esbarrar no padrão de _Command Handlers_ (que foi aplicado de forma bem simples nesta aula).
 
@@ -73,7 +71,7 @@ O padrão **Observer** é comumente utilizado por diversas bibliotecas que traba
 
 A forma como o padrão foi implementado aqui na aula é a mais simples e pura, mas existem diversas modificações que podem ser feitas.
 
-Para entender mais sobre a teoria deste padrão, você pode conferir este link: https://refactoring.guru/design-patterns/observer.
+Para entender mais sobre a teoria deste padrão, você pode conferir este link: [Observer](https://refactoring.guru/design-patterns/observer).
 
 Nesta aula, aprendemos:
 
@@ -106,3 +104,14 @@ Nesta aula, aprendemos:
 - Que é possível adicionar comportamento a classes em tempo de execução;
 - A aplicar esse conhecimento para combinar impostos;
 - Que comportamentos adicionados em tempo de execução são possíveis, através do padrão **_Decorator_**.
+
+## AULA 03. Compondo orçamentos com Composite
+É bastante comum nós precisarmos trabalhar com coleções de itens que podem ter mais de uma implementação. Se essa estrutura pode ser descrita como uma árvore (no modelo computacional), então o padrão **_Composite_** pode ser muito útil.
+
+Para entender melhor os conceitos por trás do padrão, dá uma olhada nesse link: [Composite](https://refactoring.guru/design-patterns/composite).
+
+Nesta aula, aprendemos:
+
+- Por alto o que é uma representação de árvore;
+- Como representar itens e orçamentos de forma semelhante;
+- A percorrer a estrutura de árvores utilizando o padrão **_Composite_**.
