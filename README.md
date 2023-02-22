@@ -115,3 +115,13 @@ Nesta aula, aprendemos:
 - Por alto o que é uma representação de árvore;
 - Como representar itens e orçamentos de forma semelhante;
 - A percorrer a estrutura de árvores utilizando o padrão **_Composite_**.
+
+## AULA 04. Facade para gerar pedidos
+Em determinados casos, nós podemos precisar de um acesso simplificado a uma parte complexa ou grande do nosso sistema, como autenticação, acesso a sistema de arquivos, _cache_, etc. Uma classe de fachada, contendo apenas a funcionalidade desejada, pode ser bastante útil.
+
+Este padrão é bem simples, mas possui particularidades, então vale a pena uma leitura mais completa: [Facade](https://refactoring.guru/design-patterns/facade).
+
+Nesta aula, aprendemos:
+
+- Que podemos pegar um sub-sistema e expor parte de suas funcionalidades através de uma classe;
+- Que a classe responsável por ser essa fachada implementa o padrão **_Facade_**.

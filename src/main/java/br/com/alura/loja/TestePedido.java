@@ -5,6 +5,7 @@ import br.com.alura.loja.acao.SalvarPedidoNoBancoDeDados;
 import br.com.alura.loja.orcamento.ItemOrcamento;
 import br.com.alura.loja.pedido.GeraPedido;
 import br.com.alura.loja.pedido.GeraPedidoHandler;
+import br.com.alura.loja.pedido.LogPedido;
 
 import java.math.BigDecimal;
 import java.util.ArrayList;
@@ -22,7 +23,7 @@ public class TestePedido {
 
         GeraPedido gerador = new GeraPedido(cliente, itens);
         GeraPedidoHandler handler = new GeraPedidoHandler(
-                Arrays.asList(new SalvarPedidoNoBancoDeDados(), new EnviarEmailPedido())
+                Arrays.asList(new SalvarPedidoNoBancoDeDados(), new EnviarEmailPedido(), new LogPedido())
         );
         handler.execute(gerador);
     }
