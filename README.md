@@ -125,3 +125,13 @@ Nesta aula, aprendemos:
 
 - Que podemos pegar um sub-sistema e expor parte de suas funcionalidades através de uma classe;
 - Que a classe responsável por ser essa fachada implementa o padrão **_Facade_**.
+
+## AULA 05. Proxy para cache
+
+Para saber mais detalhes sobre esse padrão simples, porém muito poderoso, você pode conferir este link: [Proxy](https://refactoring.guru/design-patterns/proxy).
+
+Nesta aula, aprendemos:
+
+- A interceptar o acesso a um método, através de uma classe derivada;
+- Quando isso pode ser útil, em nosso caso, para fazer _cache_;
+- Que, a esse conceito, se dá o nome de **_Proxy_**.
